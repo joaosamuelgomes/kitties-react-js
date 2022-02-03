@@ -1,0 +1,25 @@
+/* Coolors Exported Palette - https://coolors.co/7fb069-fffbbd-e6aa68-ca3c25-1d1a05 */
+
+/* CSV */
+7fb069,fffbbd,e6aa68,ca3c25,1d1a05
+
+/* With # */
+#7fb069, #fffbbd, #e6aa68, #ca3c25, #1d1a05
+
+/* Array */
+["7fb069","fffbbd","e6aa68","ca3c25","1d1a05"]
+
+/* Object */
+{"Bud Green":"7fb069","Cream":"fffbbd","Fawn":"e6aa68","Vermilion":"ca3c25","Black Chocolate":"1d1a05"}
+
+/* Extended Array */
+[{"name":"Bud Green","hex":"7fb069","rgb":[127,176,105],"cmyk":[28,0,40,31],"hsb":[101,40,69],"hsl":[101,31,55],"lab":[67,-30,31]},{"name":"Cream","hex":"fffbbd","rgb":[255,251,189],"cmyk":[0,2,26,0],"hsb":[56,26,100],"hsl":[56,100,87],"lab":[98,-8,30]},{"name":"Fawn","hex":"e6aa68","rgb":[230,170,104],"cmyk":[0,26,55,10],"hsb":[31,55,90],"hsl":[31,72,65],"lab":[74,15,42]},{"name":"Vermilion","hex":"ca3c25","rgb":[202,60,37],"cmyk":[0,70,82,21],"hsb":[8,82,79],"hsl":[8,69,47],"lab":[47,55,45]},{"name":"Black Chocolate","hex":"1d1a05","rgb":[29,26,5],"cmyk":[0,10,83,89],"hsb":[53,83,11],"hsl":[53,71,7],"lab":[9,-2,11]}]
+
+/* XML */
+<palette>
+  <color name="Bud Green" hex="7fb069" r="127" g="176" b="105" />
+  <color name="Cream" hex="fffbbd" r="255" g="251" b="189" />
+  <color name="Fawn" hex="e6aa68" r="230" g="170" b="104" />
+  <color name="Vermilion" hex="ca3c25" r="202" g="60" b="37" />
+  <color name="Black Chocolate" hex="1d1a05" r="29" g="26" b="5" />
+</palette>
