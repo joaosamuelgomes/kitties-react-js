@@ -1,8 +1,11 @@
 import React from 'react';
 import styles from "./Footer.module.css"
-
+import {ReactComponent as Kitties} from "../Assets/kitties-footer.svg"
 const Footer = () => {
-  return <div className={styles.footer}>Footer</div>;
+  return <footer className={styles.footer}>
+    <Kitties/>
+    <p>Kitties 2022. Todos os direitos reservados.</p>
+  </footer>;
 };
 
 export default Footer;

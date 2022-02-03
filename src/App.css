@@ -50,3 +50,13 @@ input {
     padding: 0 1rem;
     margin: 0 auto;
 }
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh + 10rem);
+}
+
+.AppBody {
+    flex: 1;
+}
