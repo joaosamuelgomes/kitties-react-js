@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@700&display=swap");
+
 * {
     box-sizing: border-box;
 }
@@ -5,9 +7,9 @@
 body {
     padding-top: 4rem;
     margin: 0px;
-    color: darkslategrey;
+    color: #1d1a05;
     --type-primary: Helvetica, Arial, sans-serif;
-    --type-secondary: "Spectral", Georgia;
+    --type-secondary: "IBM Plex Sans Thai Looped", georgia;
     font-family: var(--type-primary);
 }
 
@@ -23,6 +25,7 @@ p {
 
 a {
     text-decoration: none;
+    color: #1d1a05;
 }
 
 ul,
@@ -42,13 +45,48 @@ input {
     display: block;
     font-size: 1rem;
     font-family: var(--type-primary);
-    color: darkslategrey;
+    color: #1d1a05;
 }
 
 .container {
     max-width: 75rem;
     padding: 0 1rem;
     margin: 0 auto;
+}
+
+.title {
+    font-family: var(--type-secondary);
+    line-height: 1;
+    font-size: 3rem;
+    margin: 1rem 0;
+    position: relative;
+    z-index: 1;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #e6aa68;
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    border-radius: 0.7rem;
+    z-index: -1;
+}
+
+.animeRight {
+    opacity: 0;
+    transform: translateX(20px);
+    animation: animeRight 0.3s forwards;
+}
+
+@keyframes animeRight {
+    to {
+        opacity: 1;
+        transform: initial;
+    }
 }
 
 .App {
