@@ -15,7 +15,7 @@ const UserHeaderNav = () => {
 
     return (
         <nav className={styles.nav}>
-            <NavLink to="/account">
+            <NavLink to="/account" end>
                 <MinhasFotos />
                 {mobile && "Galeria"}
             </NavLink>
