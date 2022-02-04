@@ -2,14 +2,14 @@
     margin-bottom: 2rem;
 }
 
-.forget {
+.lost {
     display: inline-block;
     color: #1d1a05;
     padding: 0.5rem 0;
     line-height: 1;
 }
 
-.forget::after {
+.lost::after {
     content: "";
     height: 2px;
     width: 100%;

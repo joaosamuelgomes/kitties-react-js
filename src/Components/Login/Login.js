@@ -4,17 +4,21 @@ import LoginForm from "./LoginForm"
 import LoginCreate from "./LoginCreate"
 import LoginPasswordLost from "./LoginPasswordLost"
 import LoginPasswordReset from "./LoginPasswordReset"
+import styles from "./Login.module.css"
 
 const Login = () => {
-  return <div>
-    <Routes>
-      <Route path="/" element={<LoginForm />}/>
-      <Route path="create" element={<LoginCreate />}/>
-      <Route path="forget" element={<LoginPasswordLost />}/>
-      <Route path="reset" element={<LoginPasswordReset />}/>
-      
-    </Routes>
-  </div>;
+  return (
+    <section className={styles.login}>
+      <div className={styles.forms}>
+        <Routes>
+          <Route path="/" element={<LoginForm />}/>
+          <Route path="create" element={<LoginCreate />}/>
+          <Route path="lost" element={<LoginPasswordLost />}/>
+          <Route path="reset" element={<LoginPasswordReset />}/>
+        </Routes>
+      </div>
+    </section>
+  );
 };
 
 export default Login;
