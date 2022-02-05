@@ -10,7 +10,7 @@ import useMedia from '../../Hooks/useMedia';
 
 const UserHeaderNav = () => {
 
-    const mobile = useMedia('(max-width: 30rem)');
+    const mobile = useMedia('(max-width: 45rem)');
 
     const [mobileMenu, setMobileMenu] = React.useState(false);
 
@@ -47,7 +47,7 @@ const UserHeaderNav = () => {
                     <Estatisticas />
                     {mobile && "Estatísticas"}
                 </NavLink>
-                <NavLink to="/account/post">
+                <NavLink to="/account/publication">
                     <PublicarFoto />
                     {mobile && "Nova Publicação"}
                 </NavLink>

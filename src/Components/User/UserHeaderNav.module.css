@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.1s;
     border: 1px solid transparent;
     cursor: pointer;
 }
@@ -27,13 +28,13 @@
     outline: none;
 }
 
-.nav :global(a.active) {
+.nav a:global(.active) {
     background: white;
     box-shadow: 0 0 0 3px #fea;
     border-color: #e6aa68;
 }
 
-.nav :global(a.active) svg > * {
+.nav a:global(.active) svg > * {
     fill: #e6aa68;
 }
 
