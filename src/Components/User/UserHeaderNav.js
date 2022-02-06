@@ -23,6 +23,7 @@ const UserHeaderNav = () => {
     }, [pathname]);
 
     return (
+
         <>
           {mobile && (
             <button
@@ -54,6 +55,7 @@ const UserHeaderNav = () => {
                 <button onClick={userLogout}><Sair />Sair</button>
             </nav>
         </>
+        
     );
 };
 

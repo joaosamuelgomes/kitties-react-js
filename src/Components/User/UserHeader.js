@@ -23,8 +23,10 @@ const UserHeader = () => {
   
     return (
       <header className={styles.userHeader}>
+        
         <h1 className="title">{title}</h1>
         <UserHeaderNav />
+
       </header>
     );
   };

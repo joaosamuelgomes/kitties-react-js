@@ -114,13 +114,13 @@
     cursor: pointer;
 }
 
+.navMobile button {
+    border-bottom: none;
+}
+
 .navMobile a:hover svg > *,
 .navMobile button:hover svg > * {
     fill: #e6aa68;
-}
-
-.navMobile button {
-    border-bottom: none;
 }
 
 .navMobile svg {
