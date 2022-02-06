@@ -25,10 +25,12 @@ const useFetch = () => {
   }, []);
 
   return {
+
     data,
     loading,
     error,
     request,
+    
   };
 };
 
