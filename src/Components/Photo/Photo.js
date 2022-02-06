@@ -20,10 +20,12 @@ const Photo = () => {
   if (loading) return <Loading />;
   if (data)
     return (
+
       <section className="container mainContainer">
         <Head title={data.photo.title} />
         <PhotoContent single={true} data={data} />
       </section>
+      
     );
   else return null;
 };

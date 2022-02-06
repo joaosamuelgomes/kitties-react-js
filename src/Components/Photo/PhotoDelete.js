@@ -16,6 +16,7 @@ const PhotoDelete = ({ id }) => {
   }
 
   return (
+
     <>
       {loading ? (
         <button className={styles.delete} disabled>
@@ -27,6 +28,7 @@ const PhotoDelete = ({ id }) => {
         </button>
       )}
     </>
+    
   );
 };
 

@@ -13,6 +13,7 @@ const PhotoComments = (props) => {
   }, [comments]);
 
   return (
+
     <>
       <ul
         ref={commentsSection}
@@ -33,6 +34,7 @@ const PhotoComments = (props) => {
         />
       )}
     </>
+    
   );
 };
 

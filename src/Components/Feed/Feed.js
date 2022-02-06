@@ -33,6 +33,7 @@ const Feed = ({ user }) => {
   }, [infinite]);
 
   return (
+
     <div>
       {modalPhoto && (
         <FeedModal photo={modalPhoto} setModalPhoto={setModalPhoto} />
@@ -58,6 +59,7 @@ const Feed = ({ user }) => {
         </p>
       )}
     </div>
+    
   );
 };
 
