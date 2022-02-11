@@ -1,4 +1,4 @@
-export const API_URL = 'https://kittiesapi.test/json';
+export const API_URL = 'https://kittiesapi.local/json';
 
 export function TOKEN_POST(body) {
   return {
