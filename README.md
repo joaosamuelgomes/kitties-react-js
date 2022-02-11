@@ -1,30 +1,41 @@
-# Kitties - A cat social media
+<div align="center">
+  <img src="https://ik.imagekit.io/joaosamuelgomes/logo-header_cGfmOLCUkMB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644539472615"/>
+  <p>A ideia do projeto é criar uma rede social para gatos e publicar fotos dos bichanos, nesse Projeto você pode cadastrar um usuário, fazer login, ver o feed de fotos, ver estatísticas das fotos e publicar novas fotos.</p>
+</div>
 
-Esse projeto foi construido utilizando o [Create React App](https://github.com/facebook/create-react-app).
+## Screenshots 📷
 
-## Scripts Disponíveis
+<div align="center">
+    <img src="https://ik.imagekit.io/joaosamuelgomes/Screenshot_1_SralNZeFj.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644541702424" style="width: 50%"/>
+    <img src="https://ik.imagekit.io/joaosamuelgomes/Screenshot_2_JsfkQ-EDL.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644541698646" style="width: 50%"/>
+    <img src="https://ik.imagekit.io/joaosamuelgomes/Screenshot_3_gjFkckOBj.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644541698623" style="width: 50%"/>
+    <img src="https://ik.imagekit.io/joaosamuelgomes/Screenshot_4_ohXZn44l8.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644541701624" style="width: 50%"/>
+    <img src="https://ik.imagekit.io/joaosamuelgomes/Screenshot_5_lvFBoTo0puI.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644541703339" style="width: 50%"/>
+</div>
 
-No diretório do projeto você pode rodar:
+## Tecnologias Utilizadas 🛠️
+Este projeto foi criado usando as seguintes tecnologias
+- [ReactJS](https://reactjs.org)
+- [React Router](https://reactrouter.com)
+- [Victory](https://github.com/FormidableLabs/victory)
+- [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm start`
+## Como baixar esse projeto 📦
 
-Executa o aplicativo no modo de desenvolvimento.
+```bash
+  $git clone https://github.com/joaosamuelgomes/kitties-react-js/
+  
+  $cd kitties-react-js
+  
+  $npm install
+  
+  $npm start
+```
 
-### `npm test`
+## Atenção 🔴
 
-Inicia o executor de teste no modo de relógio interativo.
+Esse projeto implementa a parte de front-end da aplicação, é necessário fazer comunicação com uma API externa para implementar as funcionalidades do site.
+A API utilizada nesse projeto se chama [kitties-api](https://github.com/joaosamuelgomes/kitties-api) e gera um servidor local a partir da instalação do [Local](https://localwp.com).
 
-### `npm run build`
-
-Compila o aplicativo para produção na pasta `build`.
-Ele agrupa corretamente o React no modo de produção e otimiza a compilação para o melhor desempenho.
-
-### `npm run eject`
-
-**Nota: esta é uma operação unidirecional. Depois de `eject`, você não pode voltar!**
-
-Se você não estiver satisfeito com a ferramenta de compilação e as opções de configuração, você pode `eject` a qualquer momento. Este comando removerá a dependência de compilação única do seu projeto.
-
-Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc) diretamente em seu projeto para que você tenha controle total sobre eles. Todos os comandos, exceto `eject`, ainda funcionarão, mas eles apontarão para os scripts copiados para que você possa ajustá-los. Neste ponto você está por conta própria.
-
-Você não precisa usar `eject`. O conjunto de recursos com curadoria é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estiver pronto para isso.
+## Considerações Finais 🚀
+Esse projeto foi criado com base no projeto final do curso de React da [Origamid](https://www.origamid.com) e tem o intuito de relembrar conceitos de rotas, segurança, banco de dados, API, servidor WordPress e aprimorar habilidades de Javascript, React, HTML e CSS.
