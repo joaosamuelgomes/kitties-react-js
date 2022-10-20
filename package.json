@@ -15,10 +15,12 @@
     "victory": "^36.2.1",
     "web-vitals": "^2.1.4",
     "parse-url": ">=8.1.0",
-    "ejs": ">=3.1.7"
+    "ejs": ">=3.1.7",
+    "d3-color": ">=3.1.0"
   },
   "devDependencies": {
-    "parse-url": ">=8.1.0"
+    "parse-url": ">=8.1.0",
+    "d3-color": ">=3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
